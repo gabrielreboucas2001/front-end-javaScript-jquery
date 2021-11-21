@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<title>Game Mania </title>
+    	<meta charset="utf-8">
+    	<link rel="stylesheet" href="css/externo.css">
+		<link rel="icon" href="img/icone.png" type="image/jpg" sizes="16x16">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		
+	<style>
+		label {
+		text-shadow: 1px 1px 5px white;
+		font-size: 1000px;
+		}
+	</style>
+		
+	</head>
+	<body>
+		<header class="cabecalho">
+			<h1 class="logo">
+				<a href="index.html" title="Game Mania - Loja"> Game Mania </a>
+			</h1>
+
+			<form method="post">
+				<input type="text" placeholder="Faça uma busca">
+				<button><i class="fa fa-search fa-lg"></i> </button>
+			</form> 
+		</header>
+		
+		<nav class="menu navbar navbar-expand-lg bg-dark navbar-dark ">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudo-navbar">
+			<span class="navbar-toggler-icon"></span> 
+			</button>  
+		<div class="collapse navbar-collapse" id="conteudo-navbar">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link" href="index.html"> Início </a> </li>
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown"> Lançamentos </a> 
+                    <div class="dropdown-menu bg-white">
+                        <a class="dropdown-item text-dark" href="#">Celular & Telefonia</a>
+                        <div class="dropdown-divider"></div>
+						<a class="dropdown-item text-dark" href="#">Computadores</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-dark" href="#">Hardware</a>
+						<div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-dark" href="#">Games</a>
+                    </div>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="Contato.html"> Contatos </a> </li>
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown"> Ofertas </a> 
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item text-info" href="#">Smartphone</a>
+                        <div class="dropdown-divider"></div>
+						<a class="dropdown-item text-info" href="#">PC Gamer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-info" href="#">Tablet</a>
+						<div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-info" href="#">Jogos</a>
+                    </div>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="login.html"> Login/Cadastro </a> </li>
+            </ul>
+            </div>
+			
+			<div class="social-icons">
+				<a href="#" class="btn-facebook"> <i class="fa fa-facebook fa-lg"></i> </a>
+				<a href="#" class="btn-twitter"> <i class="fa fa-twitter fa-lg"></i> </a>
+				<a href="#" class="btn-google"> <i class="fa fa-google fa-lg"></i> </a>
+			</div>
+		</nav>
+		
+		<main class="principal">
+			
+			<center style="outline-color: red; outline-width: 2px; outline-style: solid; background-color: #00769e;">
+				<br>
+				<h2 style="color: white; font-family:arial; font-size:36px; background-color:black;"> Acesse sua conta</h2>
+				
+				<form action="#" method="post">
+					<label for="email" style="font-size:25px;">E-mail:</label><br>
+					<input type="email" id="email" name="email" placeholder=" Infome seu e-mail" class="form-control" style="width:300px;" required><br>
+					<label for="Senha" style="font-size:25px;">Senha:</label><br>
+					<input type="password" id="senha" name="senha" placeholder=" Senha" class="form-control" style="width:300px;" required><br><br>
+					<input style="background-color:white; border-style: solid; font-size:25px; font-family: Arial;" type="submit" value="  -> ENTRAR <-  ">
+				</form>
+				
+				<br>
+				
+				<p style="color: #fcea44;">Entre com uma conta já cadastrada.</p>
+				<br>
+				
+				<h2 style="color: white; font-family:arial; font-size:36px; background-color:black;"> Faça seu cadastro </h2>
+				
+				<form action="http://google.com/">
+					<label for="nome" style="font-size:25px;">NOME COMPLETO:</label><br>
+					<input type="name" id="nome" name="nome" placeholder="Nome Completo" class="form-control" style="width:300px;" required><br>
+					<label for="cpf" style="font-size:25px;">CPF:</label><br>
+					<input type="number" id="cpf" name="cpf" placeholder="000.000.000-00" class="form-control" style="width:300px;" required><br>
+					<label for="emailCadastro" style="font-size:25px;">E-MAIL:</label><br>
+					<input type="email" id="emailCadastro" name="emailCadastro" placeholder="email@exemplo.com" class="form-control" style="width:300px;" required><br><br>
+					<input style="background-color:white; border-style: solid ; font-size:25px; font-family: Arial;" type="submit" value=" -> CONCLUIR <- " required>
+				</form>
+				
+				<br><br>
+			</center>			
+		</main>	
+		
+		<footer class="rodape">
+			<p> © Game Mania   </p>
+   	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
